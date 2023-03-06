@@ -1,18 +1,18 @@
 <script setup lang="ts">
 import { RouterLink, RouterView } from "vue-router";
+import TheSiteNavbar from "./components/TheSiteNavbar.vue";
 </script>
 
 <template>
-  <header>
-    <div class="wrapper">
-      <nav>
-        <RouterLink to="/">Home</RouterLink>
-      </nav>
-    </div>
-  </header>
-  <RouterView />
+  <div class="h-full">
+    <!-- the site header -->
+    <TheSiteNavbar />
+
+    <!-- the site main view page -->
+    <main class="h-full">
+      <RouterView />
+    </main>
+  </div>
 </template>
 
-<style scoped>
-
-</style>
+<style scoped></style>
