@@ -3,11 +3,11 @@
 ## Project Summary 
 - A fullstack weather forecasting site is built using Vuejs & Laravel framework
 - For UI framework Tailwind CSS has beend installed.
-- Externam API for weather forecasting information has been used to track and show the information about weather updated data.
+- Externam API for weather forecasting information has been used to track and show the information about weather updated data.Cancel changes
 - Pinia is configured to manage the state manipulation in terms of api integration
 - all the weather information are updated in each 15 minutes of interval
 - Pure CSS carousel slider is designed under home page section.
-- All the Users lsit with the Available information about weather and forecasting are present in the `/users` route.
+- All the Users list with the Available information about weather and forecasting are present in the `/users` route.
 
 
 ## UI Responsive Version:
