@@ -13,8 +13,8 @@ class UserController extends Controller
     public function index()
     {
         return response()->json([
-            'message' => 'all systems are a go',
-            'users' => User::with('weather')->get(),
+            'message' => 'User retrived successfully',
+            'users' => User::with('weather')->paginate(6),
         ]);
     }
 
